@@ -6,7 +6,8 @@ We collected and released, as open source, more than 72 hours measurement of upl
 
 ```
 publishResult_date.txt (uplink throughput data (kbps)):
-Each segment starts with a stream ID, indicating that the following data lines belong to this stream ID. Each line includes:
+Each segment starts with a stream ID, indicating that the following data lines belong to this stream ID.
+Each line includes:
 1: Timestamp to receive the frame data (the unit is ms)
 2: The size of the frame data
 3: I frame identification (0: non-I frame; 1: I frame)
