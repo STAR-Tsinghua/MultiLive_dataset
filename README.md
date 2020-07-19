@@ -12,7 +12,7 @@ Each line includes:
 2: The size of the frame data
 3: I frame identification (0: non-I frame; 1: I frame)
 4: Network transmission rate (kbps)
-The frame rate is output every 1000ms.
+The frame rate (FPS) is output every 1000ms.
 
 liveldResult_date.txt (downlink throughput data (kbps)):
 Each segment starts with a stream ID, indicating that the following data lines belong to this stream ID.
